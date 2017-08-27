@@ -1,4 +1,4 @@
-#N canvas 55 250 590 429 10;
+#N canvas 56 274 590 429 10;
 #X obj 127 49 dumpOSC 12000;
 #X obj 36 103 prepend set;
 #X msg 40 129 /bloco3 bang;
@@ -64,6 +64,7 @@
 #X connect 19 0 15 0;
 #X connect 20 0 15 0;
 #X restore 201 219 pd notas;
+#X text 380 297 carregar sampler sf2;
 #X connect 0 0 1 0;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
